@@ -17,8 +17,8 @@ if D == 0:
     secondNumber = SumNumbers - fistNumber
     print(f"Исходные числа {secondNumber}, {fistNumber}")
 elif D > 0:
-    time1 = (-1 * -SumNumbers) + (math.sqrt(D) / 2)
-    time2 = (-1 * -SumNumbers) - (math.sqrt(D) / 2)
+    time1 = ((-1 * -SumNumbers) + math.sqrt(D)) / 2
+    time2 = ((-1 * -SumNumbers) - math.sqrt(D)) / 2
     secondNumber = SumNumbers - time1
     print(f"Исходные числа {secondNumber}, {time1}")
     secondNumber = SumNumbers - time2
